@@ -1,8 +1,8 @@
 # hello-oauth2-proxy
 
-Hello world with oauth2-proxy.
+This is an example config with oauth2-proxy and nginx for a wildcard domain.
 
-## Example Requests
+## Request flow
 
 - `https://www-sandbox.example.com/foo`
 - `https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=***&prompt=+&redirect_uri=https%3A%2F%2Fauth-sandbox.example.com%2Foauth2%2Fcallback&response_type=code&scope=profile+email&state=***%3Ahttp%3A%2F%2Fwww-sandbox.example.com%2Ffoo`
